@@ -5,6 +5,35 @@
 .menu{
     padding: 9px 0;
 }
+.menu-section{
+    position: relative;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/1.png") ;
+    background-size:cover ;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar{
+    padding: 1rem 3rem;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0 1rem;
+
+}
 
 .navbar-nav .nav-link{
     color: #555;
@@ -155,3 +184,155 @@ footer a{
 footer a:hover{
     color: #00d9a5;
 }
+
+
+.row.align-items-stretch > .col {
+        display: flex;
+      }
+
+.card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+        height: 100%;
+        border-radius: 1rem;
+        border: 1.5px solid #dcdcdc;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+.card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }      
+
+.card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 2rem;
+      }      
+
+.header-section p {
+        font-size: 0.95rem;
+        color: #555;
+      }
+      
+.price-section h4 {
+        font-weight: 800;
+      }      
+
+.features-section ul {
+        padding-left: 1.2rem;
+      }      
+
+.features-section li {
+        font-size: 0.9rem;
+        margin-bottom: 4px;
+      }      
+
+.button-bonus-wrapper {
+        margin-top: auto;
+      }      
+
+.btn-bundling {
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 10px 0;
+      }
+
+/* ====== TERPOPULER BADGE ====== */
+.card-highlight {
+border: 2px solid #000;
+}
+
+.terpopuler-badge {
+position: absolute;
+top: -12px;
+left: 50%;
+transform: translateX(-50%);
+background-color: #000;
+color: #fff;
+padding: 4px 12px;
+border-radius: 50px;
+font-size: 0.8rem;
+font-weight: bold;
+}
+
+/* ====== BONUS SECTION ====== */
+.bonus-section {
+margin-top: 8px;
+font-size: 0.9rem;
+}
+
+.bonus-section ul {
+padding-left: 1.2rem;
+}
+
+.bonus-section li {
+font-size: 0.85rem;
+color: #333;
+}
+
+h2 {
+font-weight: 700;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+.card-body {
+    padding: 1.5rem;
+}
+}
+ 
+.virtual-card-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color:  rgba(0, 0, 0, 1);
+    color: white;
+}      
+
+
+.virtual-card-space{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px #000;
+    margin-bottom: 2rem;
+    position: relative;
+    
+    
+}
+
+.virtual-card-space img{
+    size: 100%;
+    height: 450px;
+    
+}
+
+.iklan-section{
+    background-image: url(../img/25.png);
+    size: 100%;
+    
+    object-fit: cover;
+    padding: 0;
+    
+}
+
+.logo-iklan{
+    padding: 6rem;
+}
+.logo-iklan img{
+    height: 70px;
+}
+.logo-iklan btn{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+
